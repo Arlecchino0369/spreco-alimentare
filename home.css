@@ -1,0 +1,102 @@
+/* parte comune */
+body {
+     font-family: 'Candara', sans-serif;
+     margin: 0;
+     padding: 0;
+     background-color: #F0F0F0;
+}
+
+div#titolo {
+     background-color: #98D7C2;
+     color: #000000;
+     text-align: center;
+     padding: 40px;
+}
+
+h1 {
+     margin: 0;
+     font-size: 50px;
+}
+
+div#colonnasx{
+     width: 40px;
+     height: 800px;
+     background-color: #10564F;
+     float: left;
+     position: relative;
+}
+
+div#colonnadx{
+     width: 40px;
+     height: 800px;
+     background-color: #10564F;
+     float: right;
+     position: relative;
+}
+
+div#menu {
+     background-color: #10564F;
+     text-align: center;
+     margin: 0 0 25px 0;
+     padding: 10px 0;
+}
+
+div#menu a{
+     color: white;
+     text-decoration: none;
+     padding: 15px 20px;
+     margin: 0 15px;
+     font-size: 20px;
+}
+
+div#menu a:hover {
+     background-color: #16796F;
+}
+
+div#menu a#evidenza {
+     background-color: #16796F;
+     font-weight: bold;
+}
+
+hr#sotto{
+     background-color: #10564F;
+     height: 40px;
+     width: 100%; 
+     margin: 0;
+     padding: 0;
+     border: none;
+}
+
+/* fine parte comune */
+
+
+div#slide {
+     width: 60%;
+     margin: 50px auto;
+     padding: 40px 40px;
+     background-color: white;
+     border-radius: 8px;
+     box-shadow: 10px 10px 10px #DEDEDE;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
+
+h2 {
+     margin: 0;
+     text-align: center;
+     font-size: 30px;
+}
+
+p {
+     text-align: center;
+     line-height: 1.5;
+}
+
+iframe {
+     margin: 0 auto;
+     width: 560px;
+     height: 315px;
+     display: flex;
+     border-radius: 8px;
+}

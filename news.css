@@ -1,0 +1,168 @@
+/* parte comune */
+body {
+     font-family: 'Candara', sans-serif;
+     margin: 0;
+     padding: 0;
+     background-color: #F0F0F0;
+}
+
+div#titolo {
+     background-color: #98D7C2;
+     color: #000000;
+     text-align: center;
+     padding: 40px;
+}
+
+h1 {
+     margin: 0;
+     font-size: 50px;
+}
+
+div#colonnasx{
+     width: 40px;
+     height: 1850px;
+     background-color: #10564F;
+     float: left;
+     position: relative;
+}
+
+div#colonnadx{
+     width: 40px;
+     height: 1850px;
+     background-color: #10564F;
+     float: right;
+     position: relative;
+}
+
+div#menu {
+     background-color: #10564F;
+     text-align: center;
+     margin: 0 0 25px 0;
+     padding: 10px 0;
+}
+
+div#menu a{
+     color: white;
+     text-decoration: none;
+     padding: 15px 20px;
+     margin: 0 15px;
+     font-size: 20px;
+}
+
+div#menu a:hover {
+     background-color: #16796F;
+}
+
+div#menu a#evidenza {
+     background-color: #16796F;
+     font-weight: bold;
+}
+
+hr#sotto{
+     background-color: #10564F;
+     height: 40px;
+     width: 100%; 
+     margin: 0;
+     padding: 0;
+     border: none;
+}
+
+/* fine parte comune */
+
+
+div#slide {
+     width: 70%;
+     margin: 50px auto;
+     padding: 20px 20px 20px 20px;
+     background-color: white;
+     border-radius: 8px;
+     box-shadow: 10px 10px 10px #DEDEDE;
+}
+
+div#fascia {
+     justify-content: center;
+     display: flex;
+}
+
+div#testo {
+     margin: 0 0 20 0;
+}
+
+h2 {
+     padding: 5px;
+     margin: 0 auto;
+     text-align: center;
+     font-size: 30px;
+}
+
+p {
+     margin: 10;
+     text-align: center;
+     line-height: 2;
+}
+
+div#segnalibri {
+     display: flex;
+     justify-content: center;
+}
+
+a#segnalibro {
+     width: 150px;
+     margin: 0 20px 10px 20px;
+     padding: 20px;
+     display: flex;
+     justify-content: center;
+     text-decoration: none;
+     color: black;
+     background-color: #98D7C2;
+     border-radius: 8px;
+}
+
+a#segnalibro:hover {
+     color: white;
+     background-color: #16796F;
+}
+
+
+h3 {
+     margin: 0 auto;
+     padding: 0;
+     text-align: center;
+     display: flex;
+     place-items: center;
+     font-size: 30px;
+}
+
+img#img1{
+     width: 100%;
+     border-radius: 8px;
+}
+
+div#img1 {
+     width: 25%;
+     margin: 20px;
+}
+
+div#img2 {
+     width: 40%;
+     margin: 10px 30px 10px 10px;
+}
+
+div#img3 {
+     width: 60%;
+}
+
+div#img4 {
+     width: 50%;
+     margin: 15px;
+}
+
+div#testo1 {
+     width: 75%;
+     margin: 0;
+     padding: 20px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
